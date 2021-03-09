@@ -8,3 +8,7 @@
 
 #5. Make sure the input cursor shows on a new line, see the example at:
 #   https://band-name-generator-end.appbrewery.repl.run/
+print("Welcome to the band name generator")
+city=input("Whats name of the city you grew up in?\n")
+pet=input("Whats your pet name?\n")
+print("Your band name can be " + city + " "+pet)
